@@ -1,0 +1,8 @@
+.container {
+  flex: 1;
+}
+img {
+  width: "80%";
+  height: "60%";
+  margin-left: "6%";
+}

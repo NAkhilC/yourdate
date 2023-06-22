@@ -1,0 +1,125 @@
+import { StyleSheet } from "react-native";
+import { themeColors, fontSize } from "./base";
+export const styles = StyleSheet.create({
+  viewContainer: {
+    marginLeft: "5%",
+  },
+  headerTitle: {
+    fontSize: fontSize.large,
+    marginTop: 70,
+    marginLeft: 20,
+    fontWeight: 700,
+  },
+  normalText: {
+    marginTop: 10,
+    marginLeft: 20,
+    fontWeight: 500,
+  },
+  yourInfoTitle: {
+    width: "100%",
+    height: 45,
+    backgroundColor: themeColors.primary,
+  },
+  basicsInfoSubTitle: {
+    width: "100%",
+    height: 35,
+    marginTop: 15,
+    backgroundColor: themeColors.peimarynext,
+  },
+  profileImages: {
+    marginTop: 20,
+  },
+  imageTitle: {
+    fontSize: fontSize.md,
+    marginTop: 10,
+    marginLeft: 20,
+    fontWeight: 500,
+  },
+  basicsInfoSubTitleText: {
+    fontSize: fontSize.lsmall,
+    marginTop: 10,
+    marginLeft: 20,
+    fontWeight: 500,
+  },
+  yourImages: {
+    height: 300,
+    padding: 3,
+    marginLeft: 12,
+  },
+  imageGrid: {
+    flex: 1,
+    flexDirection: "row",
+    overflow: "hidden",
+    height: 50,
+  },
+  interestGrid: {
+    flex: 1,
+    justifyContent: "center",
+    marginTop: 10,
+    flexDirection: "row",
+    flexWrap: "wrap",
+    flex: 1,
+  },
+  image: {
+    width: "31%",
+    height: "100%",
+    margin: 4,
+  },
+  img: {
+    width: "100%",
+    height: "90%",
+    borderRadius: 15,
+  },
+  input: {
+    height: 55,
+    marginLeft: 15,
+    marginTop: 10,
+    width: "90%",
+    borderWidth: 0,
+    padding: 10,
+    borderRadius: 10,
+    backgroundColor: "white",
+  },
+  radioButtonContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginRight: 45,
+  },
+  radioButton: {
+    height: 20,
+    width: 20,
+    backgroundColor: "#F8F8F8",
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: "#E6E6E6",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  radioButtonIcon: {
+    height: 14,
+    width: 14,
+    borderRadius: 7,
+    backgroundColor: "#98CFB6",
+  },
+  radioButtonText: {
+    fontSize: 16,
+    marginLeft: 16,
+  },
+  dropdown4DropdownStyle: { backgroundColor: themeColors.peimarynext },
+  dropdown4RowStyle: { backgroundColor: themeColors.peimarynext, borderBottomColor: "#C5C5C5" },
+  dropdown4RowTxtStyle: { color: "#444", textAlign: "right" },
+  dropdown4BtnStyle: {
+    width: "95%",
+    height: 50,
+    marginTop: 10,
+    backgroundColor: "white",
+    borderRadius: 8,
+  },
+  // viewContainer: {
+  //   width: "60%",
+  //   marginLeft: "20%",
+  //   borderRadius: 8,
+  //   backgroundColor: "#FFF",
+  // },
+  dropdown4BtnTxtStyle: { color: "#444", textAlign: "center" },
+});
